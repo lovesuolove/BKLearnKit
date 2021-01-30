@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BKLearnKit_Example' do
+  pod 'BKLearnKit', :path => '../'
+
+  target 'BKLearnKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

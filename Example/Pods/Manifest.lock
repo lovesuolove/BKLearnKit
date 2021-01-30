@@ -1,0 +1,16 @@
+PODS:
+  - BKLearnKit (0.1.0)
+
+DEPENDENCIES:
+  - BKLearnKit (from `../`)
+
+EXTERNAL SOURCES:
+  BKLearnKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BKLearnKit: c0a81631fe74c1c5698cc0c3cfdc3fba7162981c
+
+PODFILE CHECKSUM: 483bcb519e63827af22b752df6ae70ae7e6d75f7
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,6 @@
+framework module BKLearnKit {
+  umbrella header "BKLearnKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
