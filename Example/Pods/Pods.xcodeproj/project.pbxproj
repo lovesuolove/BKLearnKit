@@ -8,26 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0E12E0FD441B3C766615115788001D09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2F46518F9091F5834B6BBE1E124F27D8 /* BKLearnKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C35479ED8AE4C01FDA83E4DE070C5F /* BKLearnKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14272DDF9458691B5E881B5ED6DFD324 /* BKLearnKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3735C4EBC41B511CE05839A001759E /* BKLearnKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F354CBE4D5520C27034A14933AF93C0 /* BKLearnKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2618CFA1B6B0283CCB01E8697C5B4343 /* BKLearnKit-dummy.m */; };
 		3A7CD8D1C5F6241FC0965C6566C8A926 /* Pods-BKLearnKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C695C63D4D5A8726BAAC95AE6CA4CCE /* Pods-BKLearnKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A134EDB514549A4EA00922364BC4AB /* HTRootViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF61FF45566009E04EFDF59A6DCA3DA /* HTRootViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E5027D732DF083630D699F20D4A2DCC /* Pods-BKLearnKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4800558504650644D8F08C3A18CAAEF3 /* Pods-BKLearnKit_Tests-dummy.m */; };
+		7760A5550972817736F434A5A9B99A1E /* HTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD6002DBA361130D8B14104C54ECDB7 /* HTRootViewController.m */; };
 		91D8C6250F02AEBA4C55B70687236B02 /* Pods-BKLearnKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0780E11940E6A6FEDEA0F8EF4B0BE8D4 /* Pods-BKLearnKit_Example-dummy.m */; };
-		A461B193D02FC767CD6C7B35B756A1B9 /* BKLearnKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E22885339151AF11440B1D543BAB07B /* BKLearnKit-dummy.m */; };
 		CBC4C1E7F490BEAB4DB10BF12DC95631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D9705D1742C66159125B2B46FDBBE5AA /* Pods-BKLearnKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC0E012F513149D6CFD9657DB3B02E7 /* Pods-BKLearnKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F32EAE24B374100A951BCA9B788B6D1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F8E3A8E92006CAAC94B978B79E0F1F82 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F963B75F48F3561C5989524A2503E8 /* ReplaceMe.m */; };
+		DFA132538A111EE1414CE5FC57A1E4E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		84242D3E2255C0BB24F8CA11AD276DB4 /* PBXContainerItemProxy */ = {
+		4CF8565967050AC8FB6E21DFFDBC7C77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0C656A119715FE31E9A035BD9C06301D;
 			remoteInfo = BKLearnKit;
 		};
-		F7195E735B2A9166604B2BF7E50DEE0C /* PBXContainerItemProxy */ = {
+		85D9909659ED71AF171F5FD81FF5F587 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,38 +39,39 @@
 
 /* Begin PBXFileReference section */
 		018DF94527A732D3BAC28AEA9439329C /* Pods-BKLearnKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BKLearnKit_Example.modulemap"; sourceTree = "<group>"; };
-		02B55C4D4E75556A1B51D23F17B356A6 /* BKLearnKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BKLearnKit-prefix.pch"; sourceTree = "<group>"; };
-		06B3E89DB25D6BCBBBD7AB8CE9F6DBA8 /* BKLearnKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BKLearnKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		065741D0AB6E0B39368CBAB6859E54E5 /* BKLearnKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BKLearnKit-prefix.pch"; sourceTree = "<group>"; };
 		0780E11940E6A6FEDEA0F8EF4B0BE8D4 /* Pods-BKLearnKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BKLearnKit_Example-dummy.m"; sourceTree = "<group>"; };
-		3D8C42512675FEBFBDEBDF3BED51CBEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1FD6002DBA361130D8B14104C54ECDB7 /* HTRootViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTRootViewController.m; path = BKLearnKit/Classes/HTRootViewController.m; sourceTree = "<group>"; };
+		2618CFA1B6B0283CCB01E8697C5B4343 /* BKLearnKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BKLearnKit-dummy.m"; sourceTree = "<group>"; };
 		3FC0A298FD598F59FB64D07C1995DFB5 /* Pods_BKLearnKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BKLearnKit_Example.framework; path = "Pods-BKLearnKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47B40383D6ADC1713DF8108E8A8F247B /* BKLearnKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BKLearnKit-Info.plist"; sourceTree = "<group>"; };
 		4800558504650644D8F08C3A18CAAEF3 /* Pods-BKLearnKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BKLearnKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		52B9605C86412D5BEA28F2AF1F4E665C /* BKLearnKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BKLearnKit.modulemap; sourceTree = "<group>"; };
+		4BB3C0C4DA793A5783679C943986CD26 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4FF61FF45566009E04EFDF59A6DCA3DA /* HTRootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTRootViewController.h; path = BKLearnKit/Classes/HTRootViewController.h; sourceTree = "<group>"; };
 		5C695C63D4D5A8726BAAC95AE6CA4CCE /* Pods-BKLearnKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BKLearnKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		5E22885339151AF11440B1D543BAB07B /* BKLearnKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BKLearnKit-dummy.m"; sourceTree = "<group>"; };
 		6641EA9B12C7BE1EA712EBBF0E7AB786 /* Pods-BKLearnKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BKLearnKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		67C984126FA88116EFC2FBFB268A73EC /* Pods-BKLearnKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BKLearnKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78647CB5739C3C349375054D30646169 /* Pods-BKLearnKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BKLearnKit_Tests.modulemap"; sourceTree = "<group>"; };
 		79EA9D79B81FDC11BE258C917DA92537 /* BKLearnKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BKLearnKit.framework; path = BKLearnKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80C35479ED8AE4C01FDA83E4DE070C5F /* BKLearnKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BKLearnKit-umbrella.h"; sourceTree = "<group>"; };
 		85797409D7C3B02F1B19278B3BA4B9BC /* Pods-BKLearnKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BKLearnKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9A14DC02BA7B15330D88D602DC86A163 /* BKLearnKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BKLearnKit.debug.xcconfig; sourceTree = "<group>"; };
+		8E3735C4EBC41B511CE05839A001759E /* BKLearnKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BKLearnKit-umbrella.h"; sourceTree = "<group>"; };
 		9BC0E012F513149D6CFD9657DB3B02E7 /* Pods-BKLearnKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BKLearnKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0550C88737ECFD26484653ADCF064E1 /* Pods-BKLearnKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BKLearnKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A5D48CC0156B0B3B497299BA1A4A79C7 /* Pods-BKLearnKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BKLearnKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A5F963B75F48F3561C5989524A2503E8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BKLearnKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		A754CCBA18965DBAEC272C9B7352C5DE /* Pods-BKLearnKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BKLearnKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		AD632F91B2847B2AAE9E18B229AC3E55 /* BKLearnKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BKLearnKit.debug.xcconfig; sourceTree = "<group>"; };
 		B366DDDBAC5162E613CF91857BDBF2FE /* Pods-BKLearnKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BKLearnKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4E56FCB4AD8DF0F1E69AFB946B6A7D6 /* Pods-BKLearnKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BKLearnKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C0A2C7DB771123B273762F9BFB032885 /* BKLearnKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BKLearnKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C3428D65F7EE0E58BFBD1D5DC455F853 /* Pods-BKLearnKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BKLearnKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C50FEDD22D9AF868612C5EBC28BDF34D /* BKLearnKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BKLearnKit.release.xcconfig; sourceTree = "<group>"; };
+		C4DEB460E0DCF163B231C1BDDD1A9A11 /* BKLearnKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BKLearnKit-Info.plist"; sourceTree = "<group>"; };
 		D5CEE8C01FCEBEC52438B985EF80713B /* Pods_BKLearnKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BKLearnKit_Tests.framework; path = "Pods-BKLearnKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0CD21F4D85E05E66CD0B6F04083BA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DF3A5BB69D028029E48EDC4EFBB64921 /* Pods-BKLearnKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BKLearnKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E2EB5D19CF2509FCDD6B92DF90EE6F83 /* BKLearnKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BKLearnKit.modulemap; sourceTree = "<group>"; };
+		EBA706045ED6F33D7FD200C73D2D88BC /* BKLearnKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BKLearnKit.release.xcconfig; sourceTree = "<group>"; };
 		F98789DD6AD70C82CDDBF74BA5211F1E /* Pods-BKLearnKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BKLearnKit_Example-Info.plist"; sourceTree = "<group>"; };
-		FC7452846A890119CABB3AF935A2E9B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEB80D11ADA6E1E5817E5DEB6F8C50FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA132538A111EE1414CE5FC57A1E4E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E758C28148A2A7C733AF6A0F0B0BCF1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,17 +99,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB25B6C9A3C36F6C9241C352149161D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F32EAE24B374100A951BCA9B788B6D1D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EB717274B938748C1EAEE0EE94F6D07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2EB5D19CF2509FCDD6B92DF90EE6F83 /* BKLearnKit.modulemap */,
+				2618CFA1B6B0283CCB01E8697C5B4343 /* BKLearnKit-dummy.m */,
+				C4DEB460E0DCF163B231C1BDDD1A9A11 /* BKLearnKit-Info.plist */,
+				065741D0AB6E0B39368CBAB6859E54E5 /* BKLearnKit-prefix.pch */,
+				8E3735C4EBC41B511CE05839A001759E /* BKLearnKit-umbrella.h */,
+				AD632F91B2847B2AAE9E18B229AC3E55 /* BKLearnKit.debug.xcconfig */,
+				EBA706045ED6F33D7FD200C73D2D88BC /* BKLearnKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BKLearnKit";
+			sourceTree = "<group>";
+		};
+		18F23434844EDFE71BDF050F9D6671D3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2C7DB771123B273762F9BFB032885 /* BKLearnKit.podspec */,
+				4BB3C0C4DA793A5783679C943986CD26 /* LICENSE */,
+				DD0CD21F4D85E05E66CD0B6F04083BA2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		1CE60CFC98A402886B869E7457CAC022 /* Pods-BKLearnKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,32 +142,6 @@
 			);
 			name = "Pods-BKLearnKit_Example";
 			path = "Target Support Files/Pods-BKLearnKit_Example";
-			sourceTree = "<group>";
-		};
-		2A6C948C5AE2A3EDA13DAD8DFBE0E9F8 /* BKLearnKit */ = {
-			isa = PBXGroup;
-			children = (
-				A5F963B75F48F3561C5989524A2503E8 /* ReplaceMe.m */,
-				E508331C53DC9FF8E5DB5DF1B3B082EF /* Pod */,
-				32A3CEA76107741F6BB56225DB66960A /* Support Files */,
-			);
-			name = BKLearnKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		32A3CEA76107741F6BB56225DB66960A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				52B9605C86412D5BEA28F2AF1F4E665C /* BKLearnKit.modulemap */,
-				5E22885339151AF11440B1D543BAB07B /* BKLearnKit-dummy.m */,
-				47B40383D6ADC1713DF8108E8A8F247B /* BKLearnKit-Info.plist */,
-				02B55C4D4E75556A1B51D23F17B356A6 /* BKLearnKit-prefix.pch */,
-				80C35479ED8AE4C01FDA83E4DE070C5F /* BKLearnKit-umbrella.h */,
-				9A14DC02BA7B15330D88D602DC86A163 /* BKLearnKit.debug.xcconfig */,
-				C50FEDD22D9AF868612C5EBC28BDF34D /* BKLearnKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BKLearnKit";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -160,11 +161,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		747A32A141CC547CF089E1FB76125B5B /* BKLearnKit */ = {
+			isa = PBXGroup;
+			children = (
+				4FF61FF45566009E04EFDF59A6DCA3DA /* HTRootViewController.h */,
+				1FD6002DBA361130D8B14104C54ECDB7 /* HTRootViewController.m */,
+				18F23434844EDFE71BDF050F9D6671D3 /* Pod */,
+				0EB717274B938748C1EAEE0EE94F6D07 /* Support Files */,
+			);
+			name = BKLearnKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C1E3113CFACF1EEADF6B5E5BD653E32E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				747A32A141CC547CF089E1FB76125B5B /* BKLearnKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F83CBD5C641E5F539D57DE3404B25189 /* Development Pods */,
+				C1E3113CFACF1EEADF6B5E5BD653E32E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D06A5CE04B7C28343AED6785771ADCD4 /* Products */,
 				600C3CD69A9F9CCB3469ECBC7E69C7F8 /* Targets Support Files */,
@@ -189,16 +210,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E508331C53DC9FF8E5DB5DF1B3B082EF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				06B3E89DB25D6BCBBBD7AB8CE9F6DBA8 /* BKLearnKit.podspec */,
-				FC7452846A890119CABB3AF935A2E9B6 /* LICENSE */,
-				3D8C42512675FEBFBDEBDF3BED51CBEA /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		E5CB920650D068440B50338FCC07251F /* Pods-BKLearnKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,25 +226,9 @@
 			path = "Target Support Files/Pods-BKLearnKit_Tests";
 			sourceTree = "<group>";
 		};
-		F83CBD5C641E5F539D57DE3404B25189 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2A6C948C5AE2A3EDA13DAD8DFBE0E9F8 /* BKLearnKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		100AD252FD21527543FF1CA558E487DB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F46518F9091F5834B6BBE1E124F27D8 /* BKLearnKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		33C6E2429A1F7DD712EB642FAFE3CF7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,17 +245,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0451EDBEA17006C5F31CBC2858A272E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14272DDF9458691B5E881B5ED6DFD324 /* BKLearnKit-umbrella.h in Headers */,
+				61A134EDB514549A4EA00922364BC4AB /* HTRootViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0C656A119715FE31E9A035BD9C06301D /* BKLearnKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB325854D04C8842DCB227246FA5505B /* Build configuration list for PBXNativeTarget "BKLearnKit" */;
+			buildConfigurationList = DCC2F63CD7E6E082A4772B601F09A426 /* Build configuration list for PBXNativeTarget "BKLearnKit" */;
 			buildPhases = (
-				100AD252FD21527543FF1CA558E487DB /* Headers */,
-				28241D7D5E6D29A4D5B79247B59A4CFA /* Sources */,
-				FB25B6C9A3C36F6C9241C352149161D4 /* Frameworks */,
-				082428002A96519C770FEBCDFDBE05C7 /* Resources */,
+				F0451EDBEA17006C5F31CBC2858A272E /* Headers */,
+				36DFE4413A6C9247C41F7D8DC87C7395 /* Sources */,
+				DEB80D11ADA6E1E5817E5DEB6F8C50FF /* Frameworks */,
+				3A15913D63D727FE3C4D581F850F3411 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C3CDDB5B824966A7D45746A85E790588 /* PBXTargetDependency */,
+				AAA28AA82B569452EBBC1BED2C43166D /* PBXTargetDependency */,
 			);
 			name = "Pods-BKLearnKit_Example";
 			productName = "Pods-BKLearnKit_Example";
@@ -302,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				65D61F5284FC1F41D41DCACBFBE18969 /* PBXTargetDependency */,
+				527670F19194CBF62E2FF24EFF895D9E /* PBXTargetDependency */,
 			);
 			name = "Pods-BKLearnKit_Tests";
 			productName = "Pods-BKLearnKit_Tests";
@@ -346,7 +350,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		082428002A96519C770FEBCDFDBE05C7 /* Resources */ = {
+		3A15913D63D727FE3C4D581F850F3411 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +367,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28241D7D5E6D29A4D5B79247B59A4CFA /* Sources */ = {
+		36DFE4413A6C9247C41F7D8DC87C7395 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A461B193D02FC767CD6C7B35B756A1B9 /* BKLearnKit-dummy.m in Sources */,
-				F8E3A8E92006CAAC94B978B79E0F1F82 /* ReplaceMe.m in Sources */,
+				2F354CBE4D5520C27034A14933AF93C0 /* BKLearnKit-dummy.m in Sources */,
+				7760A5550972817736F434A5A9B99A1E /* HTRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,21 +395,52 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		65D61F5284FC1F41D41DCACBFBE18969 /* PBXTargetDependency */ = {
+		527670F19194CBF62E2FF24EFF895D9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BKLearnKit_Example";
 			target = 1432CCFD5B32E64FE07AE5784532CBC9 /* Pods-BKLearnKit_Example */;
-			targetProxy = F7195E735B2A9166604B2BF7E50DEE0C /* PBXContainerItemProxy */;
+			targetProxy = 85D9909659ED71AF171F5FD81FF5F587 /* PBXContainerItemProxy */;
 		};
-		C3CDDB5B824966A7D45746A85E790588 /* PBXTargetDependency */ = {
+		AAA28AA82B569452EBBC1BED2C43166D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BKLearnKit;
 			target = 0C656A119715FE31E9A035BD9C06301D /* BKLearnKit */;
-			targetProxy = 84242D3E2255C0BB24F8CA11AD276DB4 /* PBXContainerItemProxy */;
+			targetProxy = 4CF8565967050AC8FB6E21DFFDBC7C77 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		14A4554E6BE19A33257F901781FF93E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA706045ED6F33D7FD200C73D2D88BC /* BKLearnKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BKLearnKit/BKLearnKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BKLearnKit/BKLearnKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BKLearnKit/BKLearnKit.modulemap";
+				PRODUCT_MODULE_NAME = BKLearnKit;
+				PRODUCT_NAME = BKLearnKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -505,67 +540,6 @@
 			};
 			name = Release;
 		};
-		367A62231F97D73815C2840C6C46B03D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A14DC02BA7B15330D88D602DC86A163 /* BKLearnKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BKLearnKit/BKLearnKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BKLearnKit/BKLearnKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BKLearnKit/BKLearnKit.modulemap";
-				PRODUCT_MODULE_NAME = BKLearnKit;
-				PRODUCT_NAME = BKLearnKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB4C67F0B1690B9223D5EFEC11FDA752 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C50FEDD22D9AF868612C5EBC28BDF34D /* BKLearnKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BKLearnKit/BKLearnKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BKLearnKit/BKLearnKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BKLearnKit/BKLearnKit.modulemap";
-				PRODUCT_MODULE_NAME = BKLearnKit;
-				PRODUCT_NAME = BKLearnKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		ADE1D06DB5D5A0F707CF71695906A411 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5D48CC0156B0B3B497299BA1A4A79C7 /* Pods-BKLearnKit_Example.debug.xcconfig */;
@@ -630,6 +604,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C9DE186D93E464B690E2D603BE27540C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD632F91B2847B2AAE9E18B229AC3E55 /* BKLearnKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BKLearnKit/BKLearnKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BKLearnKit/BKLearnKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BKLearnKit/BKLearnKit.modulemap";
+				PRODUCT_MODULE_NAME = BKLearnKit;
+				PRODUCT_NAME = BKLearnKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -737,20 +741,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		DCC2F63CD7E6E082A4772B601F09A426 /* Build configuration list for PBXNativeTarget "BKLearnKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DE186D93E464B690E2D603BE27540C /* Debug */,
+				14A4554E6BE19A33257F901781FF93E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E65E31E7AB54B6287AC999647569B87B /* Build configuration list for PBXNativeTarget "Pods-BKLearnKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEED2A3402EAE0DBBB0CDC4DD18C70FE /* Debug */,
 				BD43A8D2CC5E61D7BAD0D5D5F13B9A76 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EB325854D04C8842DCB227246FA5505B /* Build configuration list for PBXNativeTarget "BKLearnKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				367A62231F97D73815C2840C6C46B03D /* Debug */,
-				AB4C67F0B1690B9223D5EFEC11FDA752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HTRootViewController.h"
 
 FOUNDATION_EXPORT double BKLearnKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char BKLearnKitVersionString[];
